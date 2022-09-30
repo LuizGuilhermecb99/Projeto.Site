@@ -4,6 +4,9 @@
 html{
     background-image: url("./Image/piano-g97f3e7c57_1920.jpg");
     position: relative;
+    scroll-behavior: smooth;
+    
+    
 }
 
 
@@ -15,6 +18,7 @@ body{
     background-color: rgba(100, 90,90, 0.6);
     position:fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
      
 }
 
@@ -58,28 +62,29 @@ section[class="ButaoBack"]{
 
 
 
+   
 
 
 
 a { 
-    font-size:x-large;
+    font-size:large;
     color: rgb(219, 208, 208);
     text-decoration: none;
+    
    
 }
+
 a[class="Butao Back"]{
-    color: rgb(12, 12, 12);
-    background: rgba(0, 212, 219);
-    border-radius: 20px;
-    box-shadow: 2px 2px 1px 1px  #000
+    color:rgb(219, 208, 208);
+    
     
     
 }
 a:hover{
     transform:  scale(1.05);
     color:  rgb(255, 255, 255);
-    border: none;
-    transition: 0.2s;
+    border:none;
+    transition: 0.3s;
 
 
 }
@@ -97,7 +102,7 @@ ul {
     list-style-type: none;
     align-items: center;
     
-    background-color: rgb(7, 7, 7);
+    
     text-shadow: #000 1px 2px 1px;
     height: 6px;
     border: none;
