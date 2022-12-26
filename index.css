@@ -17,7 +17,7 @@ section[class="comandosInicio"]{
 }
 
 html{
-    background-image: url("/Image/tibet-g8cec0c479_1920.jpg");
+    background-image: url("/Image/0045d3cebd9711b83689bd592d9712a5.jpg");
     position: relative;
     background-repeat: no-repeat;
     background-size:cover;
@@ -113,7 +113,24 @@ li[class = "link"]{
    
 
 
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a { 
     font-size:x-large;
@@ -132,13 +149,19 @@ a[class="Butao Back"]{
     
 }
 a:hover{
+    background: none;
     transform:  scale(1.05);
     color:  rgb(255, 255, 255);
     border:none;
     transition: 0.3s;
-
-
+    cursor: pointer;
+    font-size: 2rem;
 }
+
+
+
+
+
 
 a[class="home"]{
 color: white;
@@ -314,6 +337,7 @@ footer a[class="Github"] {
     text-align: center;
     text-shadow: none;
     padding-top: 400px;
+    box-sizing:content-box;
 }
 footer a[class="linkedin"]{
     margin: 20px;
