@@ -5,6 +5,5 @@ Developing my own personal Site 😬
 
 
 # Deploy
-
 https://luizguilhermecb99.github.io/Projeto.Site/
 
